@@ -1,0 +1,8 @@
+name    'jballou-insurgency'
+version '0.0.1'
+source 'UNKNOWN'
+author 'jballou'
+license 'Apache License, Version 2.0'
+summary 'Ins'
+description 'Ins'
+project_page 'http://jballou.com'

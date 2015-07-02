@@ -1,0 +1,7 @@
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login <%= @steamuser %> <%= @steampass %>
+force_install_dir <%= filesdir %>
+app_update <%= appid %> validate
+<%= @beta %>
+quit

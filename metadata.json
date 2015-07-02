@@ -1,0 +1,14 @@
+{
+  "name": "jballou-srcds",
+  "version": "0.0.1",
+  "author": "jballou",
+  "summary": "Install and configure Source Dedicated Server",
+  "license": "Apache 2.0",
+  "source": "https://github.com/jaredballou/puppet-srcds",
+  "project_page": "https://github.com/jaredballou/puppet-srcds",
+  "issues_url": "https://github.com/jaredballou/puppet-srcds/issues",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+

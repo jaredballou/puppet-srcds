@@ -1,0 +1,191 @@
+---
+admins:
+  jballou:
+    steamid: STEAM_1:1:2938846
+    level: 99:z
+  Geezer:
+    steamid: STEAM_1:1:10119430
+    level: 90:z
+  MrClark:
+    steamid: STEAM_1:1:15239283
+    level: 90:z
+  StinkPickle:
+    steamid: STEAM_1:1:17921013
+    level: 90:z
+  Stryder:
+    steamid: STEAM_1:1:17921013
+    level: 90:z
+  Target:
+    steamid: STEAM_0:0:8336935
+    level: 90:z
+defaults:
+  appid: 237410
+  beta:
+  clientport: 27005
+  defaultmap: ministry_coop
+  defaultmode: checkpoint
+  email: insserver@jballou.com
+  emailnotification: on
+  engine: source
+  gamename: Insurgency
+  ip: %{::ipaddress}
+  logdays: 7
+  mapcyclefile: mapcycle_checkpoint.txt
+  maxplayers: 64
+  port: 27015
+  sourcetvport: 27020
+  steamuser: anonymous
+  steampass: 
+fastdl: ins.jballou.com/fastdl
+gid: 501
+gitserver: https://github.com/jaredballou
+group: insserver
+homedir: /home/insserver
+instances:
+servercfg:
+  - hq_radio_restrictedarea_frequency 1200
+  - ins_bot_count_checkpoint_max 60
+  - ins_bot_count_checkpoint_min 12
+  - ins_bot_count_hunt_max 60
+  - ins_bot_count_hunt_min 12
+  - ins_bot_difficulty 2
+  - kid_printtopanel 0
+  - log 1
+  - logaddress_add stats.jballou.com:27500
+  - logaddress_delall
+  - log on
+  - mapcyclefile mapcycle_verynotfun.txt
+  - mp_autoteambalance 0
+  - mp_checkpoint_counterattack_always 1
+  - mp_checkpoint_counterattack_capture_speedup 0
+  - mp_checkpoint_counterattack_delay 12
+  - mp_checkpoint_counterattack_delay_finale 15
+  - mp_checkpoint_counterattack_duration 65
+  - mp_checkpoint_counterattack_duration_finale 120
+  - mp_checkpoint_counterattack_wave_finale 60
+  - mp_coop_lobbysize 12
+  - mp_cp_capture_time 30
+  - mp_cp_deteriorate_time 0
+  - mp_friendlyfire 1
+  - mp_maxgames 1
+  - mp_maxrounds 5
+  - mp_minteamplayers 1
+  - mp_player_resupply_delay_base 10
+  - mp_player_resupply_delay_max 30
+  - mp_player_resupply_delay_penalty 0
+  - mp_player_resupply_delay_survival 0
+  - mp_player_resupply_grace 120
+  - mp_player_resupply_penalty_reset 5
+  - mp_restricted_area_wpn_time 3600
+  - mp_roundtime 3600
+  - mp_scrambleteams_auto 0
+  - mp_scrambleteams_auto_windifference 0
+  - mp_supply_token_base 30
+  - mp_supply_token_bot_base 20
+  - mp_theater_override verynotfun-20150413
+  - mp_timer_postgame 5
+  - mp_timer_postround 5
+  - mp_timer_pregame 5
+  - mp_timer_preround 5
+  - mp_tkpunish 1
+  - mp_voice_max_distance_enemy 0
+  - mp_voice_max_distance_friendly 10000
+  - mp_voice_use_3d_voip 0
+  - mp_winlimit_coop 1
+  - net_maxfilesize 50
+  - sm_botcount_enabled 0
+  - sm_botnames_announce 0
+  - sm_botnames_enabled 1
+  - sm_botnames_list arabic
+  - sm_botnames_prefix 
+  - sm_botnames_random 1
+  - sm_botnames_suppress 1
+  - sm_cvar bot_attack_aimpenalty_amt_close	30
+  - sm_cvar bot_attack_aimpenalty_amt_far 120
+  - sm_cvar bot_attack_burst_maxtime 5
+  - sm_cvar bot_attack_burst_mintime 1
+  - sm_cvar bot_attackdelay_base 0.8
+  - sm_cvar bot_attackdelay_frac_desiredrange 1
+  - sm_cvar bot_attackdelay_frac_difficulty_easy 2
+  - sm_cvar bot_attackdelay_frac_difficulty_hard 0.75
+  - sm_cvar bot_attackdelay_frac_difficulty_impossible 0.5
+  - sm_cvar bot_attackdelay_frac_hipfirerange 1.2
+  - sm_cvar bot_attackdelay_frac_maxrange 1.5
+  - sm_cvar bot_attackdelay_frac_outofrange 1.2
+  - sm_cvar bot_attackdelay_frac_outsidefov 1.2
+  - sm_cvar bot_damage 0.6
+  - sm_cvar bot_hearing_flashbang_effect_max_distance 1500
+  - sm_cvar bot_hearing_silenced_weapon_sound_reduction 0.75
+  - sm_cvar bot_loco_hurry_sprinthold_max 5
+  - sm_cvar bot_loco_hurry_sprinthold_min 0
+  - sm_cvar bot_loco_path_max_retreat_length 1000
+  - sm_cvar bot_loco_path_minlookahead 120
+  - sm_cvar bot_loco_pronehold_max 30
+  - sm_cvar bot_loco_pronehold_min 3
+  - sm_cvar bot_loco_slowdown_walkhold_max 3
+  - sm_cvar bot_loco_slowdown_walkhold_min 0
+  - sm_cvar bot_recoil_multiplier 2.5
+  - sm_cvar bot_rpg_spawn_attackdelay 30
+  - sm_cvar bot_vis_recognizetime_base 2
+  - sm_cvar bot_vis_recognizetime_frac_easy 2
+  - sm_cvar bot_vis_recognizetime_frac_hard 0
+  - sm_cvar bot_vis_recognizetime_frac_impossible 0
+  - sm_cvar ins_bot_attack_pistol_fire_rate 3
+  - sm_cvar ins_bot_change_difficulty 1
+  - sm_cvar ins_bot_difficulty 2
+  - sm_cvar ins_bot_enemy_seen_notify_distance 400
+  - sm_cvar ins_bot_friendly_death_hearing_distance 200
+  - sm_cvar ins_bot_max_setup_gate_defend_range 5000
+  - sm_cvar ins_bot_min_setup_gate_defend_range 800
+  - sm_cvar ins_bot_min_setup_gate_sniper_defend_range 400
+  - sm_cvar ins_bot_suppressing_fire_duration 3.0
+  - sm_cvar ins_bot_suppress_visible_requirement 1
+  - sm_cvar ins_survival_bot_spawn_distance	2500
+  - sm_cvar ins_survival_coordinated_attack_time_max 40
+  - sm_cvar ins_survival_coordinated_attack_time_min 20
+  - sm_motd_url http://ins.jballou.com/motd.php
+  - sm_navmesh_chat_teamonly 0
+  - sm_respawn_count 0
+  - sm_respawn_count_team2 0
+  - sm_respawn_count_team3 0
+  - sm_respawn_enabled 1
+  - sm_respawn_reset_each_objective 1
+  - sm_respawn_reset_each_round 1
+  - sm_suicidebomb_death_chance 0
+  - sm_suicidebomb_enabled 1
+  - sm_suicidebomb_explode_armed 1
+  - sv_allowdownload 1
+  - sv_allowupload 1
+  - sv_consistency 0
+  - sv_deadchat 1
+  - sv_deadchat_team 1
+  - sv_deadvoice 1
+  - sv_downloadurl http://ins.jballou.com/fastdl/
+  - sv_hud_deathmessages 1
+  - sv_hud_deathmessages_spectator 1
+  - sv_hud_scoreboard_show_kd 1
+  - sv_hud_targetindicator 1
+  - sv_logbans 1
+  - sv_logecho 1
+  - sv_logfile 1
+  - sv_log_onefile 0
+  - sv_playlist custom
+  - sv_pure 0
+  - sv_vote_issue_botcount_allowed 0
+  - sv_vote_issue_botdifficulty_allowed 0
+  - sv_vote_issue_changegamemode_allowed 0
+  - sv_vote_issue_changelevel_allowed 1
+  - sv_vote_issue_nextlevel_allowed 1
+  - sv_vote_issue_nextlevel_allowextend 1
+  - sv_vote_issue_nextlevel_prevent_change 1
+  - sv_vote_issue_restart_game_allowed 1
+  - sv_vote_issue_restart_round_allowed 1
+  - sv_vote_issue_scramble_teams_allowed 0
+  - sv_vote_issue_switch_teams_allowed 0
+  - sv_vote_kick_min_voters 5
+  - sv_weapon_manager_cleanup 1
+  - sv_weapon_manager_drop_timer 360
+  - sv_weapon_manager_max_count 100
+uid: 501
+user: insserver
+...
